@@ -25,6 +25,7 @@ module.exports = {
     },
   },
   plugins: [
+    require('@tailwindcss/line-clamp'),
     plugin(({ addUtilities}) => {
       const utilities = {
         '.community-gradient' : {
