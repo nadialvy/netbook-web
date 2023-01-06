@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Header from '../components/Header';
 
 export default function Home() {
   return (
-   <div>
-      <p className="font-bold text-gray-300">Halo</p>
-   </div>
+    <>
+      <div className="p-4 bg-gradient-to-br from-white to-blue-100">
+          <Header/>
+      </div>
+    
+    </>
   )
 }
