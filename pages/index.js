@@ -1,5 +1,6 @@
 import AboutUs from '../components/AboutUs';
 import Header from '../components/Header';
+import OurAchievement from '../components/OurAchievement';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       </div>
       <div className="p-4">
         <AboutUs />
+        <OurAchievement/>
       </div>
     </>
   )
