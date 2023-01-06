@@ -1,6 +1,7 @@
 import AboutUs from '../components/AboutUs';
 import Header from '../components/Header';
 import OurAchievement from '../components/OurAchievement';
+import OurCommunity from '../components/OurCommunity';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <AboutUs />
         <OurAchievement/>
       </div>
+      <OurCommunity />
     </>
   )
 }
