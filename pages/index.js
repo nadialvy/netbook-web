@@ -2,6 +2,7 @@ import AboutUs from '../components/AboutUs';
 import Header from '../components/Header';
 import OurAchievement from '../components/OurAchievement';
 import OurCommunity from '../components/OurCommunity';
+import OurTeam from '../components/OurTeam';
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
         <OurAchievement/>
       </div>
       <OurCommunity />
+      <div className='p-4'>
+        <OurTeam />
+      </div>
     </>
   )
 }
