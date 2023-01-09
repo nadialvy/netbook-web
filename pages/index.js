@@ -1,4 +1,5 @@
 import AboutUs from '../components/AboutUs';
+import CTA from '../components/CTA';
 import Header from '../components/Header';
 import OurAchievement from '../components/OurAchievement';
 import OurCommunity from '../components/OurCommunity';
@@ -18,6 +19,7 @@ export default function Home() {
       <div className='p-4'>
         <OurTeam />
       </div>
+      <CTA />
     </>
   )
 }

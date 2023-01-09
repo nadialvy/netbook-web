@@ -33,7 +33,7 @@ export default function OurTeam(){
                 <div className="w-1/2">
                     <TeamCard
                         img="./team_4.png"
-                        name="Jamal Maulana"
+                        name="Jamal Deren"
                         usn="@jamal"
                     />
                 </div>
