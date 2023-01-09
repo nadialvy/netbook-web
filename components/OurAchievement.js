@@ -1,7 +1,7 @@
 export default function OurAchievement(){
     return(
         <>
-            <div className="lg:flex mt-14">
+            <div className="p-4 lg:flex mt-14">
                 <div className="lg:w-4/12 shadow-xl rounded-md p-6 mb-4">
                     <div className="flex items-center mb-4">
                         <img src="./Star.svg" alt="" />

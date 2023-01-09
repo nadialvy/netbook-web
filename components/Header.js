@@ -1,6 +1,6 @@
 export default function Header(){
     return(
-        <div className="lg:flex">
+        <div className="p-4 lg:flex">
             <div className="lg:w-1/2">
                 <button className="bg-blue-50 text-blue-500 py-3 px-6 text-xs font-bold rounded-lg">Netbook Community</button>
                 <h1 className="my-4 text-blue-900 font-extrabold text-4xl">Your Solutions For Community!</h1>
